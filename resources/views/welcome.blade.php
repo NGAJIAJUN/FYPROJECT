@@ -489,11 +489,6 @@ hr{
                     <li class = "nav-item"
                     ><a class="nav-link" href="{{ url('/ab') }}" >{{ __('About')}}</a>
                     </li> 
-
-                    <li class = "nav-item"
-                    ><a class="nav-link" href="{{ url('/ab') }}" >{{ __('Services')}}</a>
-                    </li> 
-
              
                         <!-- Authentication Links -->
                         @guest 
