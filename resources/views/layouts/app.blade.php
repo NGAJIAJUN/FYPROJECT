@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ ('Interior Design searching system') }}</title>
+    <title>{{ ('Interior Design searching systems') }}</title>
     <script src="https://kit.fontawesome.com/00d58f113f.js" crossorigin="anonymous"></script>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -670,6 +670,7 @@ hr{
                     <li class = "nav-item"
                     ><a class="nav-link" href="{{ url('/ab') }}" >{{ __('About')}}</a>
                     </li> 
+                    
 
                         <!-- Authentication Links -->
                         @guest 
